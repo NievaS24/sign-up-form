@@ -20,7 +20,7 @@ body {
 
 #fondo {
     background-image: url(fondo.jpg);
-    background-size: 135%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -40,9 +40,9 @@ body {
 }
 
 #create-account {
-    background-color: green;   
     width: 100%;
     height: 30%;
+    padding: 30px 40px;
 }
 
 /* Modifico el div del logo*/
@@ -55,7 +55,7 @@ body {
     height: 140px;
     top: 20%;
     padding: 10px;
-    font-size: 80px;
+    font-size: 4em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,4 +64,26 @@ body {
 
 #text img {
     height: 100px;
+}
+
+/* Modifico el div de abajo a la derecha */
+
+#create-account button {
+    background-color: #596D48;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+}
+
+#create-account p {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
 }
